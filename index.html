@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Web Storage Tasks</h1>
+    <hr>
+    <h2>Task1</h2>
+    <input id="input" type="text">
+    <button id="button">Save Name</button>
+    <p id="name">Name will appear here</p>
+    <hr>
+    <h2>Task2</h2>
+    <form id="myfrom">
+        <input  name="nameInput" type="text">
+        <input name="emailInput" type="email">
+        <input name="sumbitInput" type="submit">
+    </form>
+    <p>Name : <span id="namein"></span></p>
+        <p>Email : <span id="emailin"></span> </p>
+        <hr>
+        <h2>Task3</h2>
+        <div class="search_container">
+            <div class="title">
+                <h2> <img src="img/search.png" alt=""> User Search</h2>
+            </div>
+            <hr>
+            <div class="searchdiv">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="searchbar" type="text" placeholder="Searh users...">
+                <button class="clearbutton">Clear</button>
+            </div>
+            <div class="resultcontainer">
+                <h2>Results:</h2>
+                <hr>
+                <div id="results" class="results">
+
+                </div>
+            </div>
+        </div>
+    <script src="src/source.js"></script>
+    <script src="src/Task2.js"></script>
+    <script src="src/Task3.js"></script>
+</body>
+</html>
